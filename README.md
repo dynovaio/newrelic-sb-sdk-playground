@@ -1,4 +1,4 @@
-![New Relic](./notebooks/assets/new-relic-logo.png)
+![Community-Project](https://gitlab.com/softbutterfly/open-source/open-source-office/-/raw/master/banners/softbutterfly-open-source--banner--community-project.png)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zodiacfireworks/newrelic-playground/HEAD)
 
@@ -23,7 +23,7 @@ poetry env use $(cat .python-version)
 poetry install
 ```
 
-3. Create a `.env` file with your New Relic API key
+3. Create a `.env` file with your New Relic API key and your New Relic account id
 
 ```bash
 cp .env.example .env
@@ -44,11 +44,12 @@ poetry run jupyter lab --ContentsManager.allow_hidden=True
 
 ## Notes
 
-On MyBinder yo can't see the `.env` file, so you'll need to replace the `NRAK-your-new-relic-user-key` with your own API key using `sed`.
+On MyBinder yo can't see the `.env` file, so you'll need to replace the `NRAK-your-new-relic-user-key` with your own API key using `sed`. The same with the `your-new-relic-account-id` value.
 
 ```bash
 cp .env.template .env
 sed -i 's/NRAK-your-new-relic-user-key/YOUR-REAL-NEWRELIC-USER-KEY/g' .env
+sed -i 's/your-new-relic-account-id/YOUR-REAL-NEWRELIC-USER-KEY/g' .env
 ```
 
 ## License
