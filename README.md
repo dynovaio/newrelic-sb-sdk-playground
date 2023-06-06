@@ -1,6 +1,6 @@
 ![Community-Project](https://gitlab.com/softbutterfly/open-source/open-source-office/-/raw/master/banners/softbutterfly-open-source--banner--community-project.png)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zodiacfireworks/newrelic-playground/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/softbutterfly%2Fopen-source%2Fnewrelic-playground/HEAD)
 
 # New Relic Playground
 
@@ -12,7 +12,7 @@ This repository contains a sample notebook and some required files to get you st
 1. Clone this repository
 
 ```bash
-git clone git@github.com:zodiacfireworks/newrelic-playground.git
+git clone git@gitlab.com:softbutterfly/open-source/newrelic-playground.git
 ```
 
 2. Install the dependencies
@@ -41,6 +41,8 @@ poetry run jupyter lab --ContentsManager.allow_hidden=True
 
 - [New Relic GraphQL API](https://docs.newrelic.com/docs/apis/nerdgraph/get-started/introduction-new-relic-nerdgraph/)
 - [New Relic GraphQL Explorer](https://api.newrelic.com/graphiql)
+
+- [New Relic SDK by SoftButterfly](https://gitlab.com/softbutterfly/open-source/newrelic-sb-sdk/)
 
 ## Notes
 
