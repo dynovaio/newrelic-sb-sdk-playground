@@ -8,7 +8,7 @@ ignore=tests.py,urls.py,migrations
 # C0111 missing-docstring  Missing docstring
 # R0901 too-many-ancestors Used when class has too many parent classes, try to reduce this to get a simpler (and so easier to use) class.
 # W0212 Access to a protected member %s of a client class
-disable=invalid-name,missing-docstring,too-many-ancestors,protected-access
+disable=missing-docstring,too-many-ancestors,protected-access
 
 [REPORTS]
 msg-template={path}:{line}: [{msg_id}({symbol}), {obj}] {msg}
@@ -42,7 +42,7 @@ init-import=no
 dummy-variables-rgx=_|dummy
 
 [SIMILARITIES]
-min-similarity-lines=10
+min-similarity-lines=100
 ignore-imports=yes
 ignore-comments=yes
 ignore-docstrings=yes
