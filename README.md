@@ -42,7 +42,7 @@ poetry run jupyter lab --ContentsManager.allow_hidden=True
 - [New Relic GraphQL API](https://docs.newrelic.com/docs/apis/nerdgraph/get-started/introduction-new-relic-nerdgraph/)
 - [New Relic GraphQL Explorer](https://api.newrelic.com/graphiql)
 
-- [New Relic SDK by SoftButterfly](https://gitlab.com/softbutterfly/open-source/newrelic-sb-sdk/)
+- [New Relic SDK by SoftButterfly](https://gitlab.com/softbutterfly/open-source/newrelic-playground/)
 
 ## Notes
 
@@ -56,4 +56,4 @@ sed -i 's/your-new-relic-account-id/YOUR-REAL-NEWRELIC-USER-KEY/g' .env
 
 ## License
 
-This project is licensed under the terms of the [MIT license](/LICENSE).
+This project is licensed under the terms of the <a href="./LICENSE.txt" download>MIT license</a>.
