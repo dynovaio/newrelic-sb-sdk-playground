@@ -1,7 +1,9 @@
 .*
 !.gitkeep
 !.gitignore
+!.gitlab-ci.yml
 !.env.template
 !.python-version
 !.pre-commit-config.yaml
 !.pylintrc
+_build
