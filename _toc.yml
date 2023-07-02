@@ -6,3 +6,4 @@ chapters:
   - file: notebooks/03 - New Relic Playground - Alertas
   - file: notebooks/04 - New Relic Playground - Niveles de servicio
   - file: notebooks/05 - New Relic Playground - Drop Rules
+  - file: notebooks/06 - New Relic Playground - Fetch Data
