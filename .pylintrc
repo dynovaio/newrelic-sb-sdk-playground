@@ -51,7 +51,7 @@ ignore-docstrings=yes
 notes=FIXME,XXX,TODO
 
 [FORMAT]
-max-line-length=160
+max-line-length=88
 max-module-lines=600
 indent-string='    '
 
