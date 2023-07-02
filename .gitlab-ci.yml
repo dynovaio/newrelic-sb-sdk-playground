@@ -1,32 +1,51 @@
+# ---------------------------------------------------------------------------- #
+# Base Setup                                                                   #
+# ---------------------------------------------------------------------------- #
 stages:
-  - build
+  - bulild
   - deploy
 
-docs:prd:build:
-  stage: build
-  image: python:slim
+before_script:
+  - ./devops/python/setup_poetry.sh
+
+cache:
+  paths:
+    - .cache/pypoetry
+
+# ---------------------------------------------------------------------------- #
+# Package                                                                      #
+# ---------------------------------------------------------------------------- #
+docs:bulild:py39:
+  stage: bulild
+  image: python:3.9
   script:
-    - pip install -r requirements.dev.txt
-    - jupyter-book clean .
-    - jupyter-book build .
+    - ./devops/python/setup_dependencies.sh
+    - ./devops/python/build_docs_with_jupyterbook.sh
   artifacts:
     paths:
       - _build/
+    expire_in: 1 week
   only:
     - master
 
-# Gitlab requires the use of the name "pages" for the job  in order to have
+# ---------------------------------------------------------------------------- #
+# Release                                                                      #
+# ---------------------------------------------------------------------------- #
+# Gitlab requires the use of the name "pages" for the job in order to have
 # Gitlab Pages working correctly.
-# docs:prd:deploy:
+# docs:deploy:py39:
 pages:
   stage: deploy
   image: busybox:latest
+  before_script:
+    - echo "Doesn't need any setup"
   script:
-    - mv _build/html public
+    - ./devops/python/publish_docs_to_gitlab_pages.sh
   artifacts:
     paths:
       - public/
+    expire_in: 1 week
   dependencies:
-    - docs:prd:build
+    - docs:bulild:py39
   only:
     - master
