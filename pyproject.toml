@@ -11,7 +11,7 @@ python = ">3.8.1,<4.0.0"
 jupyter-book = "^0.15.1"
 jupyterlab = "^4.0.1"
 matplotlib = "^3.7.1"
-newrelic-sb-sdk = "^0.9.0"
+newrelic-sb-sdk = "^0.12.0"
 pandas = "^2.0.2"
 python-dotenv = "^1.0.0"
 
