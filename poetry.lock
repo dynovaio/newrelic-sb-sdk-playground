@@ -2235,19 +2235,19 @@ files = [
 
 [[package]]
 name = "newrelic-sb-sdk"
-version = "0.12.0"
+version = "0.13.0"
 description = "New Relic SDK to interact with Nerdgraph API."
 optional = false
 python-versions = ">=3.8.1,<4.0.0"
 files = [
-    {file = "newrelic_sb_sdk-0.12.0-py3-none-any.whl", hash = "sha256:5507798b00af3821398f8c4a351984d15aaef7d9c95346c034a16491ebbcdf9d"},
-    {file = "newrelic_sb_sdk-0.12.0.tar.gz", hash = "sha256:8fd3b1cac171f96f469c258601b0bd2ebc062ce6948d80b5189b2cbcf6a65d55"},
+    {file = "newrelic_sb_sdk-0.13.0-py3-none-any.whl", hash = "sha256:d89db4dffbb43b06496680ed44211b19489ab9402d1863cc839b89e497217df2"},
+    {file = "newrelic_sb_sdk-0.13.0.tar.gz", hash = "sha256:21ecdf38903a77fdd1e86561df0e1b7406c0eb96ade405ad00302bc646fcac66"},
 ]
 
 [package.dependencies]
-python-dotenv = ">=1.0.0,<2.0.0"
-requests = ">=2.31.0,<3.0.0"
-sgqlc = ">=16.1,<17.0"
+python-dotenv = "<2.0.0"
+requests = "<3.0.0"
+sgqlc = "<17.0.0"
 
 [[package]]
 name = "nodeenv"
@@ -4300,4 +4300,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">3.8.1,<4.0.0"
-content-hash = "abeafb129d37459567b2b80628a8b2f59cbcb8634c3d18f784a7192d34e9c80e"
+content-hash = "53fbac95850371dc012eaa955347f983a7bf2e0b2627a65aef9d72c135f77066"
