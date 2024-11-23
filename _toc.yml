@@ -1,9 +1,9 @@
 format: jb-book
 root: README.md
 chapters:
-  - file: notebooks/01 - New Relic Playground - NRQL
-  - file: notebooks/02 - New Relic Playground - Dashboards
-  - file: notebooks/03 - New Relic Playground - Alertas
-  - file: notebooks/04 - New Relic Playground - Niveles de servicio
-  - file: notebooks/05 - New Relic Playground - Drop Rules
-  - file: notebooks/06 - New Relic Playground - Fetch Data
+  - file: notebooks/01 - Playground - NRQL
+  - file: notebooks/02 - Playground - Dashboards
+  - file: notebooks/03 - Playground - Alertas
+  - file: notebooks/04 - Playground - Niveles de servicio
+  - file: notebooks/05 - Playground - Drop Rules
+  - file: notebooks/06 - Playground - Fetch Data
