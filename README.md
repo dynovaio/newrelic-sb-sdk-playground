@@ -1,10 +1,10 @@
-![Community-Project](https://gitlab.com/softbutterfly/open-source/open-source-office/-/raw/master/banners/softbutterfly-open-source--banner--community-project.png)
+![Community-Project](https://gitlab.com/softbutterfly/open-source/open-source-office/-/raw/master/assets/dynova/dynova-open-source--banner--community-project.png)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/softbutterfly%2Fopen-source%2Fnewrelic-playground/HEAD)
 
-# New Relic Playground
+# New Relic SB SDK: Playground
 
-This repository contains a sample notebook and some required files to get you started with the New Relic GraphQL API.
+This repository contains sample notebooks to get started with the New Relic SDK by SoftButterfly.
 
 
 ## Getting Started
