@@ -1,6 +1,6 @@
 ![Community-Project](https://gitlab.com/softbutterfly/open-source/open-source-office/-/raw/master/assets/dynova/dynova-open-source--banner--community-project.png)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/softbutterfly%2Fopen-source%2Fnewrelic-playground/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/softbutterfly%2Fopen-source%2Fnewrelic-sb-sdk-playground/HEAD)
 
 # New Relic SB SDK: Playground
 
@@ -12,7 +12,7 @@ This repository contains sample notebooks to get started with the New Relic SDK 
 1. Clone this repository
 
 ```bash
-git clone git@gitlab.com:softbutterfly/open-source/newrelic-playground.git
+git clone git@github.com:dynova/newrelic-sb-sdk-playground.git
 ```
 
 2. Install the dependencies
@@ -35,14 +35,14 @@ cp .env.example .env
 poetry run jupyter lab --ContentsManager.allow_hidden=True
 ```
 
-5. Open the `newrelic-playground.ipynb` notebook
+5. Open the `newrelic-sb-sdk-playground.ipynb` notebook
 
 ## Resources
 
 - [New Relic GraphQL API](https://docs.newrelic.com/docs/apis/nerdgraph/get-started/introduction-new-relic-nerdgraph/)
 - [New Relic GraphQL Explorer](https://api.newrelic.com/graphiql)
 
-- [New Relic SDK by SoftButterfly](https://gitlab.com/softbutterfly/open-source/newrelic-playground/)
+- [New Relic SDK by Dynova](https://github.com/dynovaio/newrelic-sb-sdk/)
 
 ## Notes
 
