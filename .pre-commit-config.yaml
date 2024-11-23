@@ -8,13 +8,13 @@ repos:
         entry: poetry run jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v5.0.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
 
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.7.0
+    rev: 1.9.1
     hooks:
       - id: nbqa-pyupgrade
       - id: nbqa-isort
@@ -25,12 +25,12 @@ repos:
         entry: poetry run nbqa mypy --ignore-missing-imports
         name: nbqa-mypy
         alias: nbqa-mypy
-        additional_dependencies: [mypy==1.3.0, types-requests==2.30.0.0]
+        additional_dependencies: [mypy==1.13.0, types-requests==2.32.0.20241016]
       - id: nbqa
         entry: poetry run nbqa bandit
         name: nbqa-bandit
         alias: nbqa-bandit
-        additional_dependencies: [bandit==1.7.4]
+        additional_dependencies: [bandit==1.7.10]
       - id: nbqa-pylint
         args: [--disable=import-error, --disable=pointless-statement, --disable=invalid-name, --disable=expression-not-assigned]
         exclude: ^.*\b(notebooks-to-refactor)\b.*$
