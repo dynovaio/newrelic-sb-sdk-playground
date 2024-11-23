@@ -4,7 +4,7 @@
 
 # New Relic SB SDK: Playground
 
-This repository contains sample notebooks to get started with the New Relic SDK by SoftButterfly.
+This repository contains sample notebooks to get started with the New Relic SDK by Dynova.
 
 
 ## Getting Started
