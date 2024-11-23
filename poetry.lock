@@ -2974,6 +2974,23 @@ files = [
 windows-terminal = ["colorama (>=0.4.6)"]
 
 [[package]]
+name = "pygments-graphql"
+version = "1.0.0"
+description = "Pygments lexer for GraphQL files"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pygments-graphql-1.0.0.tar.gz", hash = "sha256:a330778d53d0f2b97e9c42573926da6d6f3d6e19748bab1b374d46db1167b9a4"},
+    {file = "pygments_graphql-1.0.0-py3-none-any.whl", hash = "sha256:696b727a7933f3273defdfd16d370f36c5c126c8a4903dd6e3fb2dae5a4236b9"},
+]
+
+[package.dependencies]
+pygments = "*"
+
+[package.extras]
+dev = ["flake8", "pip-tools", "tox"]
+
+[[package]]
 name = "pylint"
 version = "3.3.1"
 description = "python code static checker"
@@ -4417,4 +4434,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">3.9.0,<4.0.0"
-content-hash = "a4f8eaebefa4a93fdfc69069be9f3ad915271f5a1959c203f41a07301d73f7c0"
+content-hash = "41f3ff9cf12af60d60760d9601d9c8de076bd02981fbb4b1d2a5da7045dcac97"
