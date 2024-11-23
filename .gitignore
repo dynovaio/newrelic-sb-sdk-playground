@@ -6,6 +6,7 @@
 !.python-version
 !.pre-commit-config.yaml
 !.pylintrc
+!.github
 _build
 _output
 *.csv
