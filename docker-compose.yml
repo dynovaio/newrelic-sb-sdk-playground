@@ -5,7 +5,7 @@ services:
         build:
             context: .
             dockerfile: ./Dockerfile
-        image: registry.gitlab.com/softbutterfly/open-source/newrelic-playground:dev
+        image: registry.gitlab.com/softbutterfly/open-source/newrelic-sb-sdk-playground:dev
         restart: unless-stopped
         env_file:
             - .env
